@@ -1,6 +1,5 @@
 C:\Users\mokat\source\repos\PortFolio\PortFolio\bin\Debug\netcoreapp3.1\appsettings.Development.json
 C:\Users\mokat\source\repos\PortFolio\PortFolio\bin\Debug\netcoreapp3.1\appsettings.json
-C:\Users\mokat\source\repos\PortFolio\PortFolio\bin\Debug\netcoreapp3.1\Properties\launchSettings.json
 C:\Users\mokat\source\repos\PortFolio\PortFolio\bin\Debug\netcoreapp3.1\PortFolio.exe
 C:\Users\mokat\source\repos\PortFolio\PortFolio\bin\Debug\netcoreapp3.1\PortFolio.deps.json
 C:\Users\mokat\source\repos\PortFolio\PortFolio\bin\Debug\netcoreapp3.1\PortFolio.runtimeconfig.json
@@ -35,3 +34,4 @@ C:\Users\mokat\source\repos\PortFolio\PortFolio\obj\Debug\netcoreapp3.1\PortFoli
 C:\Users\mokat\source\repos\PortFolio\PortFolio\obj\Debug\netcoreapp3.1\PortFolio.pdb
 C:\Users\mokat\source\repos\PortFolio\PortFolio\obj\Debug\netcoreapp3.1\PortFolio.genruntimeconfig.cache
 C:\Users\mokat\source\repos\PortFolio\PortFolio\obj\Debug\netcoreapp3.1\PortFolio.csproj.CopyComplete
+C:\Users\mokat\source\repos\PortFolio\PortFolio\obj\Debug\netcoreapp3.1\scopedcss\bundle\PortFolio.styles.css
