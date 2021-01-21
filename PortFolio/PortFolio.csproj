@@ -5,7 +5,59 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Content Remove="Views\Shared\Error.cshtml" />
+  </ItemGroup>
+
+  <ItemGroup>
     <Folder Include="wwwroot\vendor\jquery.cookie\test\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="wwwroot\css\style.blue.min.css.map" />
+    <None Include="wwwroot\css\style.default.min.css.map" />
+    <None Include="wwwroot\css\style.green.min.css.map" />
+    <None Include="wwwroot\css\style.pink.min.css.map" />
+    <None Include="wwwroot\css\style.red.min.css.map" />
+    <None Include="wwwroot\css\style.sea.min.css.map" />
+    <None Include="wwwroot\css\style.violet.min.css.map" />
+    <None Include="wwwroot\css\style.yellow.min.css.map" />
+    <None Include="wwwroot\js\demo.js" />
+    <None Include="wwwroot\js\front.js" />
+    <None Include="wwwroot\lib\bootstrap\dist\css\bootstrap-grid.css.map" />
+    <None Include="wwwroot\lib\bootstrap\dist\css\bootstrap-grid.min.css.map" />
+    <None Include="wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.css.map" />
+    <None Include="wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.min.css.map" />
+    <None Include="wwwroot\lib\bootstrap\dist\css\bootstrap.css.map" />
+    <None Include="wwwroot\lib\bootstrap\dist\css\bootstrap.min.css.map" />
+    <None Include="wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.js" />
+    <None Include="wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.js.map" />
+    <None Include="wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.min.js" />
+    <None Include="wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.min.js.map" />
+    <None Include="wwwroot\lib\bootstrap\dist\js\bootstrap.js" />
+    <None Include="wwwroot\lib\bootstrap\dist\js\bootstrap.js.map" />
+    <None Include="wwwroot\lib\bootstrap\dist\js\bootstrap.min.js" />
+    <None Include="wwwroot\lib\bootstrap\dist\js\bootstrap.min.js.map" />
+    <None Include="wwwroot\lib\bootstrap\LICENSE" />
+    <None Include="wwwroot\lib\jquery-validation-unobtrusive\jquery.validate.unobtrusive.js" />
+    <None Include="wwwroot\lib\jquery-validation-unobtrusive\jquery.validate.unobtrusive.min.js" />
+    <None Include="wwwroot\lib\jquery-validation\dist\additional-methods.js" />
+    <None Include="wwwroot\lib\jquery-validation\dist\additional-methods.min.js" />
+    <None Include="wwwroot\lib\jquery-validation\dist\jquery.validate.js" />
+    <None Include="wwwroot\lib\jquery-validation\dist\jquery.validate.min.js" />
+    <None Include="wwwroot\lib\jquery-validation\LICENSE.md" />
+    <None Include="wwwroot\lib\jquery\dist\jquery.js" />
+    <None Include="wwwroot\lib\jquery\dist\jquery.min.js" />
+    <None Include="wwwroot\lib\jquery\dist\jquery.min.map" />
+    <None Include="wwwroot\vendor\bootstrap\js\bootstrap.bundle.js" />
+    <None Include="wwwroot\vendor\bootstrap\js\bootstrap.bundle.min.js" />
+    <None Include="wwwroot\vendor\bootstrap\js\bootstrap.js" />
+    <None Include="wwwroot\vendor\bootstrap\js\bootstrap.min.js" />
+    <None Include="wwwroot\vendor\jquery.cookie\jquery.cookie.js" />
+    <None Include="wwwroot\vendor\jquery\core.js" />
+    <None Include="wwwroot\vendor\jquery\jquery.js" />
+    <None Include="wwwroot\vendor\jquery\jquery.min.js" />
+    <None Include="wwwroot\vendor\jquery\jquery.slim.js" />
+    <None Include="wwwroot\vendor\jquery\jquery.slim.min.js" />
   </ItemGroup>
 
 </Project>

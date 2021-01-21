@@ -5,7 +5,7 @@
    
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <title>Resume | Nomahlubi Koyana</title>
+        <title> Nomahlubi Koyana</title>
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <meta name="robots" content="all,follow">
@@ -27,6 +27,10 @@
 <body>
     <!-- navbar-->
     <header class="header">
+       
+    </header>
+    <!-- Hero Section-->
+    <section class="hero bg-cover bg-center mt-5" id="hero" style="background: url(~/wwwroot/img/hlubi.jpg)">
         <nav class="navbar navbar-expand-lg fixed-top">
             <div class="container">
 
@@ -43,14 +47,12 @@
                 </div>
             </div>
         </nav>
-    </header>
-    <!-- Hero Section-->
-    <section class="hero bg-cover bg-center mt-5" id="hero" style="background: url(~/img/author.jpg)">
         <div class="container py-5 my-5 index-forward">
             <div class="row">
                 <div class="col-md-8 text-white">
                     <h2 class="h4 text-primary font-weight-normal mb-0">Hi, I am</h2>
-                    <h1 class="text-uppercase text-xl mb-0">Koyana<span class="text-primary">Nomahlubi</span></h1>
+                    <h1 class="text-uppercase text-xl mb-0">Koyana<span class="text-primary"></span></h1><br />
+                    <h1 class="text-uppercase text-xl mb-0"><span class="text-primary">Nomahlubi</span></h1>
                     <h2 class="h4 font-weight-normal mb-5">Junior Developer</h2>
                 </div>
             </div>
@@ -313,13 +315,15 @@
                         <p class="text-small mb-0">0676030283</p>
                     </div>
                 </div>
-                <div class="col-lg-3 col-md-6 mb-4 mb-lg-0">
+
+                @*<div class="col-lg-3 col-md-6 mb-4 mb-lg-0">
                     <a class="px-4 py-5 text-center contact-item shadow-sm d-block reset-anchor" href="www.example.com">
                         <i class="fas fa-globe-americas fa-2x mb-4"></i>
                         <h4 class="contact-item-title h5 text-uppercase">Website</h4>
                         <p class="text-small mb-0">www.example.com</p>
                     </a>
-                </div>
+                </div>*@
+
                 <div class="col-lg-3 col-md-6 mb-4 mb-lg-0">
                     <a class="px-4 py-5 text-center contact-item shadow-sm d-block reset-anchor" href="mailto:info@example.com">
                         <i class="fas fa-envelope fa-2x mb-4"></i>
@@ -337,23 +341,12 @@
                 <div class="col-lg-7 mx-auto">
                     <h2 class="text-uppercase mb-0">Koyana Nomahlubi </h2>
                     <h6 class="text-primary text-uppercase mb-0 letter-spacing-3">Junior Web Developer</h6>
-
-                    <ul class="list-inline mb-0">
-                        <li class="list-inline-item"><a class="social-link" href="#"><i class="fab fa-facebook-f"></i></a></li>
-                        <li class="list-inline-item"><a class="social-link" href="#"><i class="fab fa-twitter"></i></a></li>
-                        <li class="list-inline-item"><a class="social-link" href="#"><i class="fab fa-linkedin"></i></a></li>
-                        <li class="list-inline-item"><a class="social-link" href="#"><i class="fab fa-instagram"></i></a></li>
-                    </ul>
                 </div>
             </div>
         </div>
 
     </footer>
-    <!-- JavaScript files-->
-    <!--<script src="~/vendor/vendor/jquery/jquery.min.js"></script>
-    <script src="~/vendor/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-    <script src="~/vendor/js/front.js"></script>-->
-    <!-- FontAwesome CSS - loading as last, so it doesn't block rendering-->
+
 
     <div class="container">
         <main role="main" class="pb-3">
@@ -362,9 +355,7 @@
     </div>
 
     <footer class="border-top footer text-muted">
-        <div class="container">
-            &copy; 2020 - PortFolio - <a asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
-        </div>
+        
     </footer>
     <script src="~/lib/jquery/dist/jquery.min.js"></script>
     <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
